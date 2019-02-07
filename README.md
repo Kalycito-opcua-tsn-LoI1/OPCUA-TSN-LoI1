@@ -1,22 +1,13 @@
 open62541
 =========
 
+Refer this link (https://www.kalycito.com/guides/opc-ua-pubsub-application-on-x86-linux-with-time-based-scheduling-on-i210-network-interface-controller/) for more details
+
 open62541 (http://open62541.org) is an open source and free implementation of OPC UA (OPC Unified Architecture) written in the common subset of the C99 and C++98 languages. The library is usable with all major compilers and provides the necessary tools to implement dedicated OPC UA clients and servers, or to integrate OPC UA-based communication into existing applications. open62541 library is platform independent. All platform-specific functionality is implemented via exchangeable plugins. Plugin implementations are provided for the major operating systems.
 
 open62541 is licensed under the Mozilla Public License v2.0. So the *open62541 library can be used in projects that are not open source*. Only changes to the open62541 library itself need to published under the same license. The plugins, as well as the server and client examples are in the public domain (CC0 license). They can be reused under any license and changes do not have to be published.
 
 The library is [available](https://github.com/open62541/open62541/releases) in standard source and binary form. In addition, the single-file source distribution merges the entire library into a single .c and .h file that can be easily added to existing projects. Example server and client implementations can be found in the [/examples](examples/) directory or further down on this page.
-
-[![Ohloh Project Status](https://www.ohloh.net/p/open62541/widgets/project_thin_badge.gif)](https://www.ohloh.net/p/open62541)
-[![Build Status](https://img.shields.io/travis/open62541/open62541/master.svg)](https://travis-ci.org/open62541/open62541)
-[![MSVS build status](https://img.shields.io/appveyor/ci/open62541/open62541/master.svg)](https://ci.appveyor.com/project/open62541/open62541/branch/master)
-[![Coverity Scan Build Status](https://img.shields.io/coverity/scan/12248.svg)](https://scan.coverity.com/projects/open62541-open62541)
-[![Coverage Status](https://img.shields.io/coveralls/open62541/open62541/master.svg)](https://coveralls.io/r/open62541/open62541?branch=master)
-[![Overall Downloads](https://img.shields.io/github/downloads/open62541/open62541/total.svg)](https://github.com/open62541/open62541/releases)
-[![Quality Gate](https://sonarcloud.io/api/badges/gate?key=open62541-main)](https://sonarcloud.io/dashboard/index/open62541-main)
-[![SonarCloud Lines of Code (excl comments)](https://sonarcloud.io/api/badges/measure?key=open62541-main&metric=ncloc)](https://sonarcloud.io/component_measures/metric/security_rating/list?id=open62541-main)
-[![SonarCloud Duplicated lines](https://sonarcloud.io/api/badges/measure?key=open62541-main&metric=duplicated_lines_density)](https://sonarcloud.io/component_measures/metric/security_rating/list?id=open62541-main)
-[![SonarCloud Percentage of comments](https://sonarcloud.io/api/badges/measure?key=open62541-main&metric=comment_lines_density)](https://sonarcloud.io/component_measures/metric/security_rating/list?id=open62541-main)
 
 ### Features
 
